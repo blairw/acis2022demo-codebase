@@ -1,4 +1,6 @@
 code_id,name,quotes
-CODE_Engagement_Literature,Engagement with Literature,['0f16a8ae58e51812167e05c92986a1f9']
+CODE_Engagement_Literature,Engagement with Literature,"['0f16a8ae58e51812167e05c92986a1f9', '23df7c798105c0e82f16703f3fc16f31']"
+CODE_Future_Research_Orientation,Future Research Orientation,['TBC']
+CODE_Imagine_People_Complexly,Imagine People Complexly,['TBC']
 CODE_Impact_Real_World,Argumentation based on Impact on Real World,['0f16a8ae58e51812167e05c92986a1f9']
-CODE_Problematise_Status_Quo,Problematising the Status Quo,['TBC']
+CODE_Problematise_Status_Quo,Problematising the Status Quo,['23df7c798105c0e82f16703f3fc16f31']
