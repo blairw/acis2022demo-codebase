@@ -1,0 +1,38 @@
+[
+  {
+    "type": "Highlight",
+    "page": 2,
+    "start_xy": [
+      71.025,
+      746.64
+    ],
+    "prior_outline": "1 Introduction",
+    "text": "The growing dominance of digital platform ecosystems (DPEs) has a major impact on today's economy, society, and science",
+    "author": "Blair",
+    "created": "2022-12-05T13:52:42"
+  },
+  {
+    "type": "Highlight",
+    "page": 2,
+    "start_xy": [
+      71.025,
+      576.09
+    ],
+    "prior_outline": "1 Introduction",
+    "text": "However, an understanding of the integrated DPE performance is  necessary:  Looking  at  the  different  DPE  actors,  owners  need  feedback  on  their  ecosystem's performance  to  make  the  best  possible  governance  decisions.",
+    "author": "Blair",
+    "created": "2022-12-05T13:52:58"
+  },
+  {
+    "type": "Highlight",
+    "page": 2,
+    "start_xy": [
+      71.025,
+      490.57
+    ],
+    "prior_outline": "1 Introduction",
+    "text": "Concomitant, research on DPE performance has not reached a theoretical convergence: First, each of the DPE research fields brings their own isolated foci and lenses to the scene, studying diverse issues such  as  governance  mechanisms  and  boundary  resource  design  (Karhu  et  al.  2018),  network externalities and competition (Rochet and Tirole 2003), and technology leadership or transitions (Ozalp et al. 2018). Second, financial measures dominate empirical research on performance.",
+    "author": "Blair",
+    "created": "2022-12-05T13:53:18"
+  }
+]
