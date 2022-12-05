@@ -33,12 +33,12 @@ for f in json_files:
             this_json.pop(col_to_remove)
 
     # Calculate unique hash
-    this_json["unique_hash"] = this_json.apply(lambda row: generate_unique_hash(row), axis=1)
+    this_json["quote_id"] = this_json.apply(lambda row: generate_unique_hash(row), axis=1)
     
     # Reorder
-    col_unique_hash = this_json.pop("unique_hash") 
+    col_unique_hash = this_json.pop("quote_id") 
     col_coded_file = this_json.pop("coded_file")
-    this_json.insert(0, "unique_hash", col_unique_hash)
+    this_json.insert(0, "quote_id", col_unique_hash)
     this_json.insert(1, "coded_file", col_coded_file)
     
     datasets.append(this_json)

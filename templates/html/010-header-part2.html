@@ -27,5 +27,27 @@
 	}
 </style>
 
+<script>
+	// Adapted from: https://stackoverflow.com/a/8666693
+	function bodyDidLoad() {
+		$('table tr td').each(function () {
+			let this_text = $(this).text();
+
+			if (this_text == "NaN") {
+				$(this).css('background-color', 'lightgray');
+			}
+			else if (this_text == "(NONE DETECTED)")
+			{
+				$(this).css('background-color', '#FF5D73');
+				$(this).css('color', 'white');
+			}
+			else if (this_text.startsWith("CODE_"))
+			{
+				$(this).css('background-color', '#91ffaf');
+			}
+		});
+	}
+</script>
+
 </head>
-<body>
+<body onload="bodyDidLoad()">
