@@ -23,12 +23,13 @@ for f in json_files:
 
     # Unique ID
     this_json.rename(columns = {'text': 'quoted_text'}, inplace = True)
+    this_json.rename(columns = {'contents': 'open_coding'}, inplace = True)
 
     # Identify coded file first
     this_json["coded_file"] = f
 
     # Remove unnecessary cols
-    for col_to_remove in ["type", "contents", "prior_outline"]:
+    for col_to_remove in ["type", "prior_outline"]:
         if col_to_remove in this_json:
             this_json.pop(col_to_remove)
 
