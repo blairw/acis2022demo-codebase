@@ -2,7 +2,8 @@ AllCodes.yml
 .venv
 .DS_Store
 unified_quotes.html
-df_all_codes.csv
-df_quotes.csv
+df_all_codes.html
+df_quotes.html
+report.html
 Icon?
 
