@@ -27,6 +27,8 @@ df_quotes = pd.read_csv("./outputs/01-extracted-quotes/unified_quotes.csv")
 for quote_id in quote_utilisations.keys():
     df_quotes.loc[df_quotes["quote_id"] == quote_id, "utilisations"] = ", ".join(quote_utilisations[quote_id])
 
+df_quotes.sort_values(by=["utilisations"], inplace=True, na_position='first')
+
 df_quotes.to_csv("./outputs/02-coding/df_quotes.csv", index=False)
 df_quotes.to_html("./outputs/02-coding/df_quotes.html", index=False)
 df_all_codes.to_csv("./outputs/02-coding/df_all_codes.csv", index=False)
